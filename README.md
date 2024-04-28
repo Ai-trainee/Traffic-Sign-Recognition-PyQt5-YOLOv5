@@ -10,7 +10,7 @@
 </p>
 
 
-This system is a road sign recognition application leveraging YOLOv5🚀 😊. It employs a MySQL database 💽, PyQt5 for the interface design 🎨, PyTorch deep learning framework, and TensorRT for acceleration ⚡. Additionally, it incorporates CSS styles 🌈.
+This system is a road sign recognition application leveraging YOLOv5🚀 😊. It employs a MySQL database 💽, PyQt5 for the interface design 🎨, PyTorch deep learning framework⚡. Additionally, it incorporates CSS styles 🌈.
 
 The system comprises five key modules:
 
