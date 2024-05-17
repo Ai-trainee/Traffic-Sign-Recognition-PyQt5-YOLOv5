@@ -22,7 +22,7 @@ The system comprises five key modules:
 
 The entire system is designed to support various data input methods and model switching. Additionally, it offers image enhancement techniques such as mosaic and mixup 📈.
 
-![00013.jpg](data/doc/logo0.jpg)
+![00013.jpg](data/doc/maxre1sdefault.jpg)
 ## Screenshots
 
 * ### Sign Recognition Module
