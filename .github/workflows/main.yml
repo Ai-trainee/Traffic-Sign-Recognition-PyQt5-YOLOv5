@@ -1,0 +1,17 @@
+name: Sync with Gitee
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天午夜（UTC时间）运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Sync with Gitee
+      run: |
+        git remote add gitee https://AItrainee:a8655383c91d497cebf620b16b1da580@gitee.com/AItrainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI.git
+        git push --force gitee main
